@@ -1,0 +1,98 @@
+body
+{
+font-family: 'open sans',sans-serif;
+background-image: url("club.png");
+background-size: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.contact-section{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contact-info {
+color: #fff;
+width: 500px;
+line-height: 65px;
+
+font-size: 18px;
+}
+
+
+
+.contact-form{
+width: 700px;
+
+}
+
+
+.contact-form h2{
+color: #fff;
+text-align: center;
+font-size: 35px;
+text-transform: uppercase;
+
+}
+
+.contact-form .text-box{
+background: #000;
+color: #fff;
+border: none;
+width: 400px;
+height: 50px;
+padding: 12px;
+font-size: 15px;
+
+margin-bottom: 20px;
+
+
+} 
+
+
+
+.contact-form textarea{
+background: #000;
+color: #fff;
+border: none;
+width: 100%;
+padding: 12px;
+font-size: 15px;
+min-height: 200px;
+max-height: 400px;
+margin-bottom: 20px;
+
+}
+
+.contact-form .send-btn{
+float: right;
+background: #2E94E3;
+color: #fff;
+border: none;
+width: 120px;
+heigh: 40px;
+font-size: 15px;
+font-weight: 600;
+
+
+
+transition: 0.9s;
+cursor: pointer;
+transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+background: #E3;
+text-transform: uppercase;
+
+}
+
+
+

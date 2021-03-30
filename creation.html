@@ -1,0 +1,86 @@
+<html>
+<head>
+<title> creation compte  </title>
+<link rel="stylesheet"  href="style.css">
+
+
+<script>
+
+function f() {
+if (document.fo.username.value.length==0)
+{
+alert('saisir nom');
+return false;
+}
+if (verifnom(document.fo.username.value)==false)
+{
+alert('alphabetique');
+return false;
+}
+if (document.fo.email.value.length==0)
+{
+alert('saisir email svp');
+return false;
+}
+if (document.fo.password.value.length==0)
+{
+alert('saisir password svp');
+return false;
+}
+if (document.fo.password2.value.length==0)
+{
+alert('repeter votre password svp');
+return false;
+}
+}
+function verifnom(ch)
+{
+nb=0;
+nbmajus=0;
+for(var i=0;i<ch.length;i++)
+{
+if (ch.charAt(i)>='a' && ch.charAt(i)<='z')
+{nb++;}
+if (ch.charAt(i)>='A' && ch.charAt(i)<='Z')
+{nbmajus++;}
+}
+x1=parseFloat(nb)
+x2=parseFloat(nbmajus)
+if(x1+x2!=ch.length || x1==0 && x2!=ch.length || x2==0 && x1!=ch.length)
+{return false;}
+}
+</script>
+
+
+</head>
+<body>
+<header>
+<img src="../boukhris thamer/1.png" width=150 height=150 >
+</header>
+<div id="login-box">
+<div class="left-box">
+<h1> sign up </h1>
+<form name="fo" action="" method="post" >
+<input type="text" name="username" placeholder="nom"/> <br>
+<input type="text" name="email" placeholder="email"/><br>
+<input type="password" name="password" placeholder="mot de passe"/><br>
+<input type="password" name="password2" placeholder="confirmer"/><br>
+<input type="submit" name="signup-button" value="connexion" OnClick="f()" /> <br>
+</form>
+
+</div>
+<div class="right-box">
+<span class="signwith"> connexion avec <br> reseau sociaux
+ </span> 
+<button class="social facebook"> connexion avec facebook </button>
+<button class="social twitter"> connexion avec twitter </button>
+<button class="social google"> connexion avec google </button>
+
+
+</div>
+
+
+
+</div>
+</body>
+</html>

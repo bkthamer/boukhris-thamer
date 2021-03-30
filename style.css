@@ -1,0 +1,119 @@
+body 
+{
+margin: 0;
+padding: 0;
+font-size: 20px; 
+font-family: 'open sans',sans-serif ;
+background-image: url("web.jpg") ;
+background-size: 50%;
+}
+
+#login-box 
+{
+margin: 5% auto;
+
+heigth: 600px;
+background: #fff;
+width:400px;
+
+}
+
+.left-box
+{
+margin: 20px;
+padding: 40px;
+}
+
+h1
+{
+margin: 20px ;
+font-weight: 300;
+font-size: 28px;
+
+}
+
+input[type="text"], input[type="password"]
+{
+margin-bottom: 20px;
+padding: 4px;
+width: 220px;
+heigth: 32;
+border: none;
+
+border-bottom: 1px solid #aaa;
+font-size: 17px;
+}
+
+input[type="submit"]
+{
+margin-bottom: 20px;
+width: 120px;
+height: 32px;
+background: #f44336;
+border: none;
+border-radius: 8px;
+color: #fff; 
+
+
+}
+
+input[type="submit"]:hover
+{
+
+background: #ff5722;
+transition: 0,9s ease;
+}
+
+.right-box
+{
+
+
+box-sizing: border-box;
+padding: 40px;
+width: 400px;
+height: 400px;
+background-image: url(media.png);
+background-size: cover;
+background-position: center;
+
+
+}
+
+.right-box .signwith
+{
+display:block;
+margin-bottom:40;
+font-size:28px;
+color: #fff;
+text-align: center;
+text-shadow: 0 2px 4px rgba(0, 0, 0,0.9);
+}
+
+
+button.social
+{
+margin-bottom: 20px;
+width: 310px;
+height: 36px;
+border: none;
+border-radius: 2px;
+color: #fff;
+font-family: sans-serif;
+font-weight: 500;
+transition: 0,9 ease;
+cursor:pointer;
+}
+
+.facebook
+{
+background: #32508e;
+}
+.twitter
+{
+background: #55acee;
+}
+.google
+{
+background: #dd4b39;
+}
+

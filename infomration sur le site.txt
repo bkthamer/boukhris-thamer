@@ -1,0 +1,16 @@
+bonjour madame 
+mon site contient 4 pages 
+1) page acceuil 
+2)page creation compte 
+3) page c'est quoi le robotique
+4) page contact us
+
+1) page acceuil 
+la page d'acceuil contient le navbar et et deux bouttons qui vous ramene ala page de creation compte et page contact us
+la page acceuil contient une animation de texte de les mots "bienvenue a notre club de robotique" lors d'ouvrir la page 
+
+2) page creation compte contient code java script pour controle de saisie et contient
+ un ficher connect de type php pour stocker les donnees des utilisateurs
+
+4) page contact us
+page pour contacter le club ou donner un avis pour le club elle contient aussi controle de saisie
